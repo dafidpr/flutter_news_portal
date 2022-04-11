@@ -94,7 +94,7 @@ class NewsDetail extends StatelessWidget {
                           child: Row(
                             children: [
                               Expanded(
-                                flex: 6,
+                                flex: 3,
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
@@ -125,9 +125,6 @@ class NewsDetail extends StatelessWidget {
                                     Text('12')
                                   ],
                                 ),
-                              ),
-                              SizedBox(
-                                width: 10,
                               ),
                               Expanded(
                                 child: Row(
